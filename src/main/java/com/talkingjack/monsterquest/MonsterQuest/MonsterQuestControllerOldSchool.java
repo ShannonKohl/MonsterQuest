@@ -13,9 +13,9 @@ public class MonsterQuestControllerOldSchool {
 	
 	@Autowired MonsterRepository monsterRepo;
 	
-	@GetMapping("/monsterquest/players")
-	public Flux<List<Player>> getPlayers(){
-		return monsterRepo.getPlayers();
-	}
+//	@GetMapping("/monsterquest/players")
+//	public Flux<List<Player>> getPlayers(){
+//		return monsterRepo.getPlayers();
+//	}
 
 }
